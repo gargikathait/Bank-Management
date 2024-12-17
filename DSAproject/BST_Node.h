@@ -1,16 +1,15 @@
-#pragma once
-# include <iostream>
+#include <iostream>
 using namespace std;
-# include <vector>
-# include <fstream>
-# include <string>
+#include <vector>
+#include <fstream>
+#include <string>
 class BST_Node 
 {
 public:
 	BST_Node * left;
 	BST_Node * right;
 	string name;
-	string adress;
+	string address;
 	int account_number;
 	int password;
 	int balance;
